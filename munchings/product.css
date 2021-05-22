@@ -1,0 +1,75 @@
+html
+{
+	scroll-behavior: smooth;
+}
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	font-family: sans-serif;
+}
+#nav-bar
+{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+.navbar
+{
+	background-image: linear-gradient(to right,  #a517ba,#5f1782); /* navigation bar color */
+	padding: 0 !important;
+}
+.navbar-brand img
+{
+	height: 40px;
+	padding-left: 20px;
+}
+.navbar-nav li
+{
+	padding: 0 10px;
+}
+.navbar-nav li a
+{
+	color: white !important;
+	font-weight: 600;
+	float: right;
+	text-align: left;
+}
+.fa-bars
+{
+	color: #fff;
+	font-size: 30px !important;
+}
+.navbar-toggler
+{
+	outline: none !important;
+}
+
+/*---------------testimonial-----------*/
+#testimonials
+{
+	margin: 100px 0;
+	padding-top: 100px;
+}
+.testimonials
+{
+	/*border-left: 4px solid #7b1798;*/
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.testimonials img
+{
+	height: 250px;
+	width: 200px;
+	/*border-radius: 50%;*/
+	margin: 0 10px;
+}
+.user-details
+{
+	margin-left: 20px;
+	display: inline-block;
+	font-size: 14px;
+}
